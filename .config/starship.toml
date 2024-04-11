@@ -1,0 +1,19 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+[shell]
+disabled = false
+powershell_indicator = ""
+cmd_indicator = ""
+
+[os]
+disabled = false
+format = "$symbol "
+symbols.Windows = ""
+
+[line_break]
+disabled = false
+
+# Disable the package module, hiding it form the prompt completely
+[package]
+disabled = true
